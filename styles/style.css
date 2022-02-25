@@ -6,3 +6,136 @@ Green: #00B172
 White: #FFF
 
 */
+*{
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    padding-top: 50px;
+}
+nav{
+    box-sizing: border-box;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-image{
+    height: 45px;
+    margin-top: 3px;
+    width: auto;
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    list-style: none;
+    margin-right: 30px;
+}
+
+.nav-links li{
+    margin: 2px 8px;
+}
+
+.main-image{
+    background-image: url('../images/landing.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-width: 500px;
+    height: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+h1{
+    color: #FFF;
+    font-size: 4em;
+}
+.main-image p{
+    color: #FFF;
+    font-size: 1.2em;
+}
+
+
+.feature-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-groupe{
+    display: flex;
+}
+
+article img{
+    width: 40px;
+    height: 40px;
+}
+
+.article-groupe article{
+    flex-basis: auto;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    min-width: 150px;
+    text-align: center;
+}
+
+.explain-section{
+    background-color:#00B172 ;
+    color: #FFF;
+    padding: 5rem;
+}
+.explain-content{
+    flex-grow: 1;
+    flex: 2;
+    background-color:#00B172 ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    gap:1rem
+}
+
+.explain-article-groupe{
+    /* width: 50%; */
+    flex-grow: 1;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.explain-article-groupe article{
+    font-size: 1.3rem;
+    width: 80%;
+}
+#logo{
+    width: 4rem;
+    height: 4rem;
+}
+
+.explain-article-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    flex-grow: 1;
+    /* min-width: 5rem ;  */
+}
+
+.app-image{
+    height: 25rem;
+    /* min-width: 5rem ;  */
+}
